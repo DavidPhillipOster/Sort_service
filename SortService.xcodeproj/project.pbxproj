@@ -12,6 +12,7 @@
 		5B21D02F115F4EF700CECE3B /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B21D02E115F4EF700CECE3B /* AppKit.framework */; };
 		6301123D1C53579B00E410EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6301123C1C53579B00E410EB /* Foundation.framework */; };
 		6301123F1C53BFE200E410EB /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6301123E1C53BFE200E410EB /* Icon.icns */; };
+		63856CA529CB6AB100EAC040 /* SortWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 63856CA429CB6AB100EAC040 /* SortWork.m */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,8 @@
 		6301123C1C53579B00E410EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6301123E1C53BFE200E410EB /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		6346FE58269A3B6B007CFE92 /* Sort.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sort.entitlements; sourceTree = "<group>"; };
+		63856CA329CB6AB100EAC040 /* SortWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortWork.h; sourceTree = "<group>"; };
+		63856CA429CB6AB100EAC040 /* SortWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortWork.m; sourceTree = "<group>"; };
 		63B614DB2696162B00197300 /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SortService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SortService-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Sort.service */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sort.service; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +50,8 @@
 			children = (
 				5B21CEBA115F4D1800CECE3B /* SortService.h */,
 				5B21CEBB115F4D1800CECE3B /* SortService.m */,
+				63856CA329CB6AB100EAC040 /* SortWork.h */,
+				63856CA429CB6AB100EAC040 /* SortWork.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -127,7 +132,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					8D1107260486CEB800E47090 = {
 						DevelopmentTeam = 2X3M9VFULE;
@@ -168,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63856CA529CB6AB100EAC040 /* SortWork.m in Sources */,
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				5B21CEBC115F4D1800CECE3B /* SortService.m in Sources */,
 			);
@@ -197,6 +203,7 @@
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
@@ -221,6 +228,7 @@
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_MODEL_TUNING = G5;
@@ -257,6 +265,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -296,6 +305,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
