@@ -1,0 +1,13 @@
+/* Sort service */
+
+"Error: couldn't get text." = "Error: couldn't get text.";
+
+"Error: Couldn't sort." = "Error: Couldn't sort.";
+
+"Error: empty string." = "Error: empty string.";
+
+"Paste Evaluation" = "Paste Evaluation";
+
+"Sort multiple line selection" = "Sort multiple line selection";
+
+"SortService: Copy as Plain Text" = "SortService: Copy as Plain Text";
