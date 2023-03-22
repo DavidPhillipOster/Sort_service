@@ -18,7 +18,7 @@ It lives in the **Services** submenu of the current application's first menu.
 
 ## To Install:
 
-* from the **Products** group in Xcode's **Product Navigator** select ![](images/icon_64.png) `Sort.service` and right-click to **Show in Finder** In the Finder, put ![](images/icon_64.png)  `Sort.service` in your `Library/Services` directory.
+* from the **Products** group in Xcode's **Product Navigator** select ![](images/icon64.png) `Sort.service` and right-click to **Show in Finder** In the Finder, put ![](images/icon64.png)  `Sort.service` in your `Library/Services` directory.
 (Hold to the Option key on the Finder's 'Go' menu to find your Library folder.)
 
 Ventura and newer: In **Settings** > **Keyboard** > **Keyboard Shortcuts** > **Services** in the **Text** section check the checkbox to enable **Sort**. Click on the right edge of its table row to add a command-key-equivalent.
